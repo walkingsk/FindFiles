@@ -103,6 +103,7 @@
       <ConformanceMode>true</ConformanceMode>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <ErrorReporting>None</ErrorReporting>
+      <AdditionalOptions>/D_NO_CRT_STDIO_INLINE %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
